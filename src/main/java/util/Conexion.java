@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class Conexion {
     public static Connection getCo() throws Exception {
         try{
-            return DriverManager.getConnection("jdbc:postgresql://surus.db.elephantsql.com:5432/apnaszzh", "apnaszzh", "5zNvuy3djQngMsG_-hiSMzarYuAXwow7");
+            return DriverManager.getConnection("jdbc:postgresql://containers-us-west-170.railway.app:7849/railway", "postgres", "xEjHtrV4m417NNGVyZ2r");
         }catch (Exception e){
             throw e;
         }
