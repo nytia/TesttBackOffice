@@ -1,0 +1,1 @@
+<a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="admin">LOGIN</a>
